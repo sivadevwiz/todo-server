@@ -1,0 +1,14 @@
+{
+  "name": "rest-server",
+  "version": "1.0.0",
+  "description": "Server to process the requests",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "author": "Sivasankaran B",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
